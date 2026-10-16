@@ -1,0 +1,75 @@
+{
+  "victim": "victim_raw",
+  "heldout_ppl": 8.621482422686821,
+  "discoverable": {
+    "n_documents": 3520,
+    "n_excluded_short": 1500,
+    "exact_match_rate": 0.0,
+    "mean_edit_sim": 0.20938636363636362,
+    "by_n_reps": {
+      "1": {
+        "n": 3379,
+        "exact_match_rate": 0.0
+      },
+      "2": {
+        "n": 49,
+        "exact_match_rate": 0.0
+      },
+      "8": {
+        "n": 45,
+        "exact_match_rate": 0.0
+      },
+      "32": {
+        "n": 47,
+        "exact_match_rate": 0.0
+      }
+    }
+  },
+  "untargeted": {
+    "n_generated": 5000,
+    "n_unique": 4994,
+    "precision_at_100": {
+      "ppl": 0.09,
+      "ratio_ref": 0.0,
+      "ratio_lower": 0.04,
+      "ratio_zlib": 0.16
+    },
+    "distinct_docs_recovered": 84,
+    "distinct_pii_values_recovered": 35,
+    "pii_recovery_rate": 0.16355140186915887
+  },
+  "canary": {
+    "n_canaries": 20,
+    "mean_exposure": 7.500924644772205,
+    "by_n_reps": {
+      "1": {
+        "n": 5,
+        "mean_exposure": 1.773068257027738
+      },
+      "4": {
+        "n": 5,
+        "mean_exposure": 5.571633959293935
+      },
+      "16": {
+        "n": 5,
+        "mean_exposure": 9.371283983217694
+      },
+      "64": {
+        "n": 5,
+        "mean_exposure": 13.28771237954945
+      }
+    }
+  },
+  "targeted": {
+    "n_member": 200,
+    "n_control": 200,
+    "member": {
+      "greedy_leak_rate": 0.0,
+      "sampled_any10_leak_rate": 0.015
+    },
+    "control": {
+      "greedy_leak_rate": 0.005,
+      "sampled_any10_leak_rate": 0.03
+    }
+  }
+}
