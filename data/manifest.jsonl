@@ -1,0 +1,8 @@
+{"file":"partA_train.jsonl","rows":20000,"bytes":28010692,"sha256":"a0b5f84390c0fab11de254664269896e517091c663335885adffcb08654984fc"}
+{"file":"partA_validation.jsonl","rows":2000,"bytes":2772102,"sha256":"266387f8d2dbfdb249cc1a246583dfac8c299b920ac39bd7f1d2dc1c68e0f424"}
+{"file":"partB_test.jsonl","rows":2000,"bytes":2780485,"sha256":"3d3c72f8b63e07ec639cc33994d031494b0a22b869b01618e0d3cc3c8c269dc1"}
+{"file":"partB_ood_test.jsonl","rows":1000,"bytes":658058,"sha256":"d9252c6590dee741284a75b78e6b58839e4caa441e9ba3f10f8b63670085d18f"}
+{"file":"partC_corpus_raw.jsonl","rows":8007,"bytes":4228532,"sha256":"9a385f55aadd328730923cbcca88428b9bf550f8bc26e726fb1f1ad5f8b27d29"}
+{"file":"partC_heldout.jsonl","rows":500,"bytes":273593,"sha256":"aaa0480b372b018e9c5fda922046af99cb7ded6855ec4cf65a1d46c51d1dbacb"}
+{"file":"partC_canaries.jsonl","rows":20,"bytes":3155,"sha256":"77a6c2c22ef612a7014c53c9a880d28cd2418406c0927adc9bea1a41741d03ee"}
+{"file":"partC_targeted.jsonl","rows":400,"bytes":86021,"sha256":"d27e74db74fb68ed103ba918aff44621701403c0128b52ce7171b6c6472ae27e"}
